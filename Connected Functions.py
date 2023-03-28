@@ -7,7 +7,11 @@ string = "This is the song the song that never ends and it goes on and on my fri
 def reverse():
     global string
     user = string[::-1]
-    print(user)
+    return user
 
 
-reverse()
+def pri():
+    print(reverse())
+
+
+pri()
